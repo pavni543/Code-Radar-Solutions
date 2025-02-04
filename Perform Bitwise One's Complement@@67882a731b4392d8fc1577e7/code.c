@@ -5,7 +5,7 @@ int main() {
     if(a!=0)
     printf("-%d",a+1);
     else {
-        printf("0")
+        printf("0");
     }
     return 0;
 }
