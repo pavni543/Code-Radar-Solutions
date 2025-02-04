@@ -6,10 +6,10 @@ int main() {
         printf("0");
     }
     else if(a<0 && a>0) {
-        (printf("-%d",a+1)) 
+        (printf("-%d",a+1));
     }
     else {
-        printf("hu")
+        printf("hu");
     }
     return 0;
 }
