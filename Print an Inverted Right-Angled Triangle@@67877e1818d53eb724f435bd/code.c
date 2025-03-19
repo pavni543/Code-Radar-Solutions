@@ -8,13 +8,8 @@ int main() {
 
     // Outer loop for rows (from n down to 1)
     for(i = n; i >= 1; i--) {
-        // Inner loop for spaces (increasing as rows decrease)
-        for(j = 0; j < n - i; j++) {
-            printf(" ");  // Print spaces
-        }
-
-        // Inner loop for stars (decreasing as rows decrease)
-        for(j = 0; j < i; j++) {
+        // Inner loop for stars
+        for(j = 1; j <= i; j++) {
             printf("*");  // Print stars
         }
 
